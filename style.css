@@ -1,0 +1,911 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: 'Lucida Grande', Arial, Tahoma, Verdana, sans-serif;
+	font-size:12px;
+	width:760px;
+	margin:auto;
+}
+a {
+	text-decoration:none;
+	color:#577dc2;
+}
+
+.ha2 {
+	font-size:14px;
+	font-weight:bold;
+	margin:0px;
+	padding:0px;
+}
+.apmenu {
+	float: left;
+	height:28px;
+	border:1px solid #d8dfea;
+	margin-bottom:5px;
+	margin-top:5px;
+	background-color: #6179AC;
+	color:#FFFFFF;
+	width: 760px;
+}
+.apmenu a {
+	color:#FFFFFF;
+}
+.logo {
+	width:760px;
+	margin:10px 0 5px 0;
+}
+.ceny {
+	float: left;
+	width:760px;
+	height: auto;
+	display: block;
+	margin:0px 0px 5px 0px;
+}
+.textpole img {
+	margin-right:5px;
+	float:left;
+	border:2px solid #DADADA;
+}
+.apmenu .titulekapp {
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 28px;
+	float: left;
+	padding: 0 10px;
+}
+.apmenu .navlink a {
+	margin: 0;
+	height: 17px;
+	padding: 6px 10px;
+	float:left;
+	display:block;
+}
+.apmenu .navlinks {
+	float: right;
+}
+.apmenu .navlinks2 {
+	float: left;
+}
+.apmenu .navlink.active a {
+	background-color: #ffffff;
+	height: 17px;
+	display: block;
+	color:#577dc2;
+	font-weight:bold;
+}
+.apmenu .navlink a:hover {
+	background-color: #ffffff;
+	height: 17px;
+	display: block;
+	color:#577dc2;
+}
+#hlform {
+	background-color: #FFF;
+	border: 1px solid #D8DFEA;
+	margin: 0 0 10px 0;
+	padding: 0px;
+	float: left;
+	width: 758px;
+}
+#hlform.bottom {
+	margin: 10px 0 10px 0;
+}
+#hlform strong.csipka {
+	width: 23px;
+	height: 22px;
+	text-align: center;
+	background: transparent url(image/sipka.png) no-repeat scroll 0 0px;
+	float: left;
+	line-height: 22px;
+	padding-right: 4px;
+	margin-right: 5px;
+}
+#hlform div.formtit {
+	font-size: 12px;
+	font-weight: bold;
+}
+#hlform div.shortform {
+	padding: 10px;
+}
+#hlform div.hlavniformular {
+	padding: 10px 10px 5px 10px;
+}
+#hlform div.onelineform {
+	padding: 10px;
+	float: left;
+}
+.wide810 div.onelineform {
+	width: 740px;
+}
+#hlform div.shortform div.formtit {
+	padding-bottom: 10px;
+}
+#hlform div.hlavniformular div.formtit {
+	padding-bottom: 15px;
+}
+#hlform div.onelineform div.formtit {
+	width: 195px;
+	margin-right: 10px;
+	line-height: 22px;
+	float: left;
+}
+#hlform.groupdeal div.formtit {
+	line-height: 32px;
+}
+span.redtext {
+	color: #5F0C13;
+	margin-left: 10px;
+}
+#hlform div.dialogtopmsg {
+	width: 100%;
+	font-size: 12px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+#hlform div.dialogsubmsg {
+	font-size: 11px;
+	font-weight: normal;
+}
+#hlform input {
+	font-size: 11px;
+	margin: 0px;
+	padding: 2px 4px;
+}
+#hlform .small {
+	width: 70px;
+}
+#hlform .medium {
+	width: 143px;
+}
+#hlform .large {
+	width: 300px;
+}
+#hlform input.zaklhodnota {
+	color: #000;
+}
+#hlform div.count {
+	float: left;
+	height: 22px;
+	background-color: #F5f5f5;
+	font-size: 12px;
+	padding: 5px 10px;
+	margin: 0 5px 0 0;
+}
+#hlform div.poleprodata {
+	float: left;
+	width: 466px;
+}
+#hlform div.poleprodata .nospace {
+	margin: 0;
+}
+#hlform div.row {
+	float: left;
+	clear: both;
+	line-height: normal;
+	margin: 3px 0 0 0;
+	padding: 0;
+	white-space: normal;
+}
+#hlform div.txtrow {
+	line-height: 22px;
+}
+#hlform div.poledata {
+	width: 100%;
+	clear: both;
+	float: left;
+}
+#hlform div.poledata.smalltext {
+	font-size: 10px;
+	line-height: normal;
+	color: #888;
+	padding: 2px 0 0 0;
+}
+#hlform div.count b {
+	float: left;
+	font-size: 20px;
+	line-height: 22px;
+}
+#hlform textarea.tweet {
+	width: 408px;
+	font-size: 13px;
+	color: #555555;
+	font-family: Tahoma;
+	padding: 5px;
+	height: 34px;
+	float: left;
+}
+#hlform textarea.polep {
+	width: 408px;
+	font-size: 13px;
+	color: #555555;
+	font-family: Tahoma;
+	padding: 5px;
+	height: 34px;
+	float: left;
+}
+#hlform textarea.samos {
+	height: 34px;
+}
+#hlform textarea.medium {
+	height: 75px;
+}
+#hlform textarea.large {
+	height: 125px;
+}
+#hlform div.counter {
+	color: #888888;
+	float: left;
+	padding: 0 0 0 4px;
+	font-size: 10px;
+}
+#hlform div.count span {
+	float: left;
+	line-height: 22px;
+	margin: 0 0 0 7px;
+	font-weight: normal;
+}
+#hlform div.spacing {
+	padding: 5px 0;
+}
+#hlform input.checkbox {
+	width: 14px;
+	margin: 4px 5px 0 0;
+	padding: 0;
+	height: 14px;
+	float: left;
+}
+#hlform input.tlacitko {
+	padding: 3px 6px 4px 6px;
+}
+#hlform div.shortform, div.hlavniformular {
+	float: left;
+}
+#hlform div.onelinefield {
+	float: right;
+	width: 298px;
+	text-align: right;
+}
+#hlform div.textpole {
+	float: left;
+	width: 187px;
+	margin-right: 12px;
+	line-height: 22px;
+	overflow: visible;
+	text-overflow: ellipsis;
+}
+#hlform div.inputrow {
+	float: left;
+	width: 460px;
+}
+.wide810 #hlform div.inputrow {
+	width: 710px;
+}
+#hlform label.nahravani {
+	float: left;
+	margin-right: 5px;
+	line-height: 22px;
+	clear: right;
+	font-weight: bold;
+}
+#hlform select {
+	float: left;
+	margin-right: 5px;
+	line-height: 22px;
+	font-size: 11px;
+	padding: 2px 2px;
+	clear: both;
+}
+#hlform div.hlavniformular div.textpole {
+	width: 500px;
+	margin-bottom: 10px;
+	margin-right: 0px;
+}
+.wide810 #hlform div.hlavniformular div.textpole {
+	width: 700px;
+}
+#hlform div.poleprotl {
+	float: left;
+	min-width: 100px;
+	text-align: right;
+}
+#hlform div.uploadf {
+	background-color: #f2f2f2;
+	padding: 5px 10px 5px 10px;
+	float: left;
+	width: 738px;
+	border-top: 1px solid #D8DFEA;
+	line-height: 22px;
+	font-size: 11px;
+}
+.wide810 #hlform div.uploadf {
+	width: 738px;
+}
+#hlform div.uploadf div.poleprotl {
+	float: right;
+}
+.zelenacek {
+	background: #6179ac;
+	border: 1px solid;
+	border-color: #4d669b #4d669b #4d669b;
+	display: inline-block;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: normal !important;
+	padding: 3px 6px 4px 6px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: top;
+	white-space: nowrap;
+	color: white;
+	cursor: pointer;
+	margin: 0px;
+	outline: none;
+}
+.zelenetlacitko2 {
+	background: #69A74E;
+	border: 1px solid;
+	border-color: #3B6E22 #3B6E22 #2C5115;
+	display: inline-block;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: normal !important;
+	padding: 3px 6px 4px 6px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: top;
+	white-space: nowrap;
+	color: white;
+	cursor: pointer;
+	margin: 0px 0px 5px 0px;
+	outline: none;
+	width:80px;
+}
+.cervenetlacitko2 a {
+	background: #d74946;
+	border: 1px solid;
+	border-color: #9f220d #9f220d #9f220d;
+	display: inline-block;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: normal !important;
+	padding: 3px 6px 4px 6px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: top;
+	white-space: nowrap;
+	color: white;
+	cursor: pointer;
+	margin: 5px 0px 5px 0px;
+	outline: none;
+	width:80px;
+}
+.cernetlacitko2 {
+	background: #464646;
+	border: 1px solid;
+	border-color: #1f1f1f #1f1f1f #1f1f1f;
+	display: inline-block;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: normal !important;
+	padding: 3px 6px 4px 6px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: top;
+	white-space: nowrap;
+	color: white;
+	margin: 0px 0px 0px 0px;
+	outline: none;
+	width:80px;
+}
+.fbgreenbutton3 {
+	background: #69A74E url(/img/fbbuttons.png) repeat 0px -96px;
+	border: 1px solid;
+	border-color: #3B6E22 #3B6E22 #2C5115;
+	display: inline-block;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: normal !important;
+	padding: 3px 6px 4px 6px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: top;
+	white-space: nowrap;
+	color: white;
+	cursor: pointer;
+	margin: 0px 0px 5px 0px;
+	outline: none;
+	width:120px;
+}
+.modretlacitko a {
+	background-color:#627aac;
+	border: 1px solid;
+	border-color: #29447e #29447e #29447e;
+	display: inline-block;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: normal !important;
+	padding: 3px 6px 4px 6px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: top;
+	white-space: nowrap;
+	color: white;
+	cursor: pointer;
+	margin: 0px;
+	outline: none;
+	width:80px;
+}
+.obsah {
+	border:1px solid #d8dfea;
+	padding:10px;
+	margin-bottom:5px;
+}
+.obsah2 {
+	border:1px solid #d8dfea;
+	padding:2px;
+	margin-bottom:5px;
+}
+.obsah3 {
+	border:1px solid #d8dfea;
+	padding:10px;
+	margin-bottom:5px;
+}
+.hlaska {
+	width:734px;
+	;
+	padding:10px;
+	font-size:14px;
+	background-color:#ffdede;
+	color:#be0000;
+	margin:0;
+}
+.hlaska2 {
+	width:734px;
+	;
+	padding:10px;
+	font-size:14px;
+	background-color:#fff6de;
+	color:#dd6300;
+	margin:0;
+}
+.hlaska3 {
+	width:734px;
+	;
+	padding:10px;
+	font-size:14px;
+	background-color:#dfedc0;
+	color:#3f5a04;
+	margin:0;
+}
+.obsah2 h2 {
+	margin:0;
+	padding:0;
+}
+.clear {
+	clear:both;
+}
+.obsah .strankovani li a {
+	background: #69A74E;
+	border: 1px solid;
+	border-color: #3B6E22 #3B6E22 #2C5115;
+	display: inline-block;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: normal !important;
+	padding: 3px 6px 4px 6px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: top;
+	white-space: nowrap;
+	color: white;
+	cursor: pointer;
+	margin: 0px 2px 0px 0px;
+	outline: none;
+	float:left;
+}
+.obsah .razeni {
+	margin-bottom:5px;
+}
+.obsah .razeni .aktivnirazeni {
+	font-weight:bold;
+}
+.obsah .strankovani li a:hover {
+	background: #4d8a32;
+}
+.obsah .strankovani li a.aktualni {
+	background: #535752;
+	border-color: #383838 #383838 #383838;
+}
+.hlasovacibox {
+	position: absolute;
+	bottom: 6px;
+	right: 5px;
+	font-size: 10px;
+	padding: 0px;
+	z-index: 4;
+	max-width: 150px;
+}
+.detailobr {
+	position: absolute;
+	bottom: 6px;
+	right: 134px;
+	font-size: 10px;
+	padding: 0px;
+	z-index: 4;
+	max-width: 50px;
+}
+.detailobr .votebutton a {
+	color:#FFF;
+}
+.hlasovacibox .bottom, .hlasovacibox .top {
+	min-width: 28px;
+	overflow: hidden;
+	left: 0px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	border: 2px solid #333;
+	font-weight: bold;
+	padding: 1px 3px;
+}
+.detailobr .bottom, .detailobr .top {
+	min-width: 28px;
+	overflow: hidden;
+	left: 0px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	border: 2px solid #333;
+	font-weight: bold;
+	padding: 1px 3px;
+}
+.hlasovacibox .top {
+	border-top: none;
+}
+.hlasovacibox .bottom {
+	background: rgb(51, 51, 51);
+	background: rgba(51, 51, 51, 0.6);
+	color: white;
+	text-shadow: 1px 1px #000;
+}
+.detailobr .bottom {
+	color: white;
+	text-shadow: 1px 1px #000;
+	background: rgba(79,79,79,0.6);
+	background: rgb(79,79,79);
+}
+.detailobr .bottom a {
+	color: white;
+}
+li.obrazekbox {
+	width: 179px;
+	position: relative;
+	padding: 0px;
+	margin: 0 5px 5px 0px;
+	float: left;
+}
+li.obrazekbox .miniaturactverec {
+	border-left: 1px solid #C4CDE0;
+	border-right: 1px solid #C4CDE0;
+	border-top: 1px solid #C4CDE0;
+}
+li.obrazekbox .podbox {
+	border-bottom: 1px solid #C4CDE0;
+	padding:1px;
+}
+ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.obsah .obrazekd {
+	text-align:center;
+	position:relative;
+}
+.obsah .obrazekd img {
+	max-width:738px;
+	max-height:600px;
+}
+.obsah .obrazekd .doprava {
+	position: absolute;
+	top: 47%;
+	right: 0px;
+	display:block;
+}
+.obsah .obrazekd .doleva {
+	position: absolute;
+	top: 47%;
+	left: 0px;
+	display:block;
+}
+.obsah .levastrana {
+	width:465px;
+	padding:0px;
+	float:left;
+}
+.obsah .levastrana .ikonad {
+	width:48px;
+	float: left;
+	border:1px solid #ccc;
+}
+.obsah3 .levastrana .ikonad {
+	width:48px;
+	float: left;
+	border:1px solid #ccc;
+}
+.obsah .pravastrana {
+	text-align:right;
+	width:254px;
+	float:right;
+	margin-top:0px;
+}
+.obsah .levastrana .fbcomment {
+	margin-top:60px;
+	border:#0F0 1px solid;
+}
+.obsah .levastrana .textautor {
+	width:380px;
+	float:left;
+	margin-left:10px;
+}
+.obsah3 .levastrana .textautor {
+	width:380px;
+	float:left;
+	margin-left:10px;
+}
+.obsah4 {
+	border:1px solid #d8dfea;
+	padding:5px;
+	margin-bottom:5px;
+	width:363px;
+	float:left;
+	margin-right:5px;
+}
+.obsah4 .meobrazkybox {
+	margin:0;
+	padding:0;
+}
+.obsah4 .meobrazkybox .miniatura {
+	float:left;
+	width:80px;
+	border:1px solid #CCC;
+}
+.obsah4 .meobrazkybox form .meinput {
+	width:350px;
+	padding:6px;
+	border:#CCCCCC 1px solid;
+	background-color: #f3f3f3;
+	line-height:15px;
+	margin-top:5px;
+}
+.obsah4 .meobrazkybox .textum {
+	float:left;
+	width:228px;
+	margin-left:10px;
+}
+input.zbyvaznaku {
+	padding:0;
+	margin:0;
+	color:#669900;
+	border:none;
+	line-height:normal;
+	height:auto;
+}
+.fblikum {
+	margin:15px 0px 0px 10px;
+
+}
+img {
+	border:none;
+}
+.fblikum .fb-like{
+	width:210px;
+	margin-left:10px;
+	margin-top:10px;
+}
+.fblikum2 {
+	margin:0px 0px 0px 60px;
+	padding-top:10px;
+}
+.cernetlacitko {
+	background: #464646;
+	border: 1px solid;
+	border-color: #1f1f1f #1f1f1f #1f1f1f;
+	display: block;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: normal !important;
+	padding: 3px 3px 4px 3px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: top;
+	white-space: nowrap;
+	color: white;
+	margin: 0px 0px 0px 1px;
+	;
+	outline: none;
+	float:left;
+	width:79px;
+}
+.cervenetlacitko a {
+	background: #d74946;
+	border: 1px solid;
+	border-color: #9f220d #9f220d #9f220d;
+	cursor: pointer;
+	display: block;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: normal !important;
+	padding: 3px 6px 4px 6px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: top;
+	white-space: nowrap;
+	color: white;
+	margin: 0px 0px 0px 0px;
+	outline: none;
+	float:left;
+	width:73px;
+}
+.obsah .boxum {
+	margin-bottom:5px;
+	margin-left:5px;
+	padding:3px;
+	border:1px solid #d8dfea;
+	width:355px;
+	float:left;
+	overflow:hidden;
+}
+.obsah .boxum2 {
+	margin-bottom:5px;
+	margin-left:5px;
+	padding:3px;
+	border:1px solid #d8dfea;
+	overflow:hidden;
+}
+.winnerbox {
+	position:relative;
+ 
+}
+.winnerbox .winner {
+	text-align:center;
+	padding-top:60px;
+ 
+}
+.winnerbox .winner .textwinner{
+	font-size:18px;
+	color:#FFFFFF;
+	text-transform:uppercase;
+	font-weight:bold;
+ 
+}
+.winnerbox .winner .textvotes{
+	font-size:14px;
+	color:#FFFFFF;
+	text-transform:uppercase;
+	font-weight:bold;
+ 
+}
+.winnerbox .winner img{
+	max-width:456px;
+    max-height:347px;
+    border:#d2efff 3px solid;
+	
+}
+.obsah .boxum2 p{
+	margin:0px;
+	padding:0px;
+}
+.obsah .boxum img, .obsah .boxum2 img {
+	padding-right:5px;
+}
+.searchadm {
+	width:350px;
+}
+#tabulka {
+	border: 1px solid #DFDFDF;
+	background-color: #F9F9F9;
+	width: 100%;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	color: #333;
+	margin:20px 0;
+}
+#tabulka td, #tabulka th {
+	border-top-color: white;
+	border-bottom: 1px solid #DFDFDF;
+	color: #555;
+}
+#tabulka th {
+	text-shadow: rgba(255, 255, 255, 0.796875) 0px 1px 0px;
+	font-weight: normal;
+	padding: 7px 7px 8px;
+	text-align: left;
+	line-height: 1.3em;
+	font-size: 14px;
+}
+#tabulka td {
+	font-size: 12px;
+	padding: 4px 7px 2px;
+	vertical-align: top;
+}
+#formus{
+border:solid 1px #dfdfdf;
+background:#f9f9f9;
+padding:10px;
+margin-top:8px;
+}
+#formus h2 {
+font-size:14px;
+font-weight:bold;
+margin-bottom:8px;
+margin-top:8px;
+}
+#formus p{
+font-size:11px;
+color:#666666;
+margin-bottom:20px;
+border-bottom:solid 1px #b7ddf2;
+padding-bottom:10px;
+}
+#formus label{
+display:block;
+font-weight:bold;
+text-align:left;
+width:600px;
+}
+#formus .small{
+color:#666666;
+display:block;
+font-size:11px;
+font-weight:normal;
+text-align:right;
+width:140px;
+}
+#formus input{
+float:left;
+font-size:12px;
+padding:4px 2px;
+border:solid 1px #aacfe4;
+width:600px;
+margin:2px 0 20px 0px;
+}
+#formus input.radiobutton{
+font-size:12px;
+padding:4px 2px;
+border:solid 1px #aacfe4;
+width:20px;
+margin:2px 0 20px 20px;
+}
+#formus select{
+margin:2px 0 20px 0px;
+}
+#formus button{
+clear:both;
+width:125px;
+height:31px;
+background:#666666 no-repeat;
+text-align:center;
+color:#FFFFFF;
+font-size:12px;
+padding-top:3px;
+font-weight:bold;
+margin-top:10px;
+}
+.product {
+	float: left;
+    height: 200px;
+    width: 190px;
+}
+.product ul li a {
+    color: #0083FF;
+    display: block;
+    text-decoration: none;
+}
+span.text {
+    color: #FF7100;
+    font-weight: bold;
+    padding: 0;
+}

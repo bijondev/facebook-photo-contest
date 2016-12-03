@@ -1,0 +1,37 @@
+[22-Oct-2013 04:54:00 UTC] PHP Fatal error:  Call to undefined method Facebook::require_login() in /home/csbazar/public_html/fb/index.php on line 8
+[28-Oct-2013 11:13:28 UTC] PHP Fatal error:  Uncaught exception 'DibiDriverException' with message 'Access denied for user '--DBUSERNAME--'@'localhost' (using password: YES)' in /home/csbazar/public_html/fb/libs/dibi/drivers/mysql.php:110
+Stack trace:
+#0 /home/csbazar/public_html/fb/libs/dibi/libs/DibiConnection.php(163): DibiMySqlDriver->connect(Array)
+#1 /home/csbazar/public_html/fb/libs/dibi/libs/DibiConnection.php(137): DibiConnection->connect()
+#2 /home/csbazar/public_html/fb/libs/dibi/dibi.php(139): DibiConnection->__construct(Array, 0)
+#3 /home/csbazar/public_html/fb/libs/myDb.php(17): dibi::connect(Array)
+#4 /home/csbazar/public_html/fb/libs/secure.php(10): myDb->__construct()
+#5 /home/csbazar/public_html/fb/index.php(9): include('/home/csbazar/p...')
+#6 {main}
+  thrown in /home/csbazar/public_html/fb/libs/dibi/drivers/mysql.php on line 110
+[28-Oct-2013 11:21:49 UTC] PHP Fatal error:  Uncaught exception 'DibiDriverException' with message 'Access denied for user '--DBUSERNAME--'@'localhost' (using password: YES)' in /home/csbazar/public_html/fb/libs/dibi/drivers/mysql.php:110
+Stack trace:
+#0 /home/csbazar/public_html/fb/libs/dibi/libs/DibiConnection.php(163): DibiMySqlDriver->connect(Array)
+#1 /home/csbazar/public_html/fb/libs/dibi/libs/DibiConnection.php(137): DibiConnection->connect()
+#2 /home/csbazar/public_html/fb/libs/dibi/dibi.php(139): DibiConnection->__construct(Array, 0)
+#3 /home/csbazar/public_html/fb/libs/myDb.php(17): dibi::connect(Array)
+#4 /home/csbazar/public_html/fb/libs/secure.php(10): myDb->__construct()
+#5 /home/csbazar/public_html/fb/index.php(9): include('/home/csbazar/p...')
+#6 {main}
+  thrown in /home/csbazar/public_html/fb/libs/dibi/drivers/mysql.php on line 110
+[28-Oct-2013 11:22:12 UTC] PHP Fatal error:  Uncaught exception 'DibiDriverException' with message 'Access denied for user '--DBUSERNAME--'@'localhost' (using password: YES)' in /home/csbazar/public_html/fb/libs/dibi/drivers/mysql.php:110
+Stack trace:
+#0 /home/csbazar/public_html/fb/libs/dibi/libs/DibiConnection.php(163): DibiMySqlDriver->connect(Array)
+#1 /home/csbazar/public_html/fb/libs/dibi/libs/DibiConnection.php(137): DibiConnection->connect()
+#2 /home/csbazar/public_html/fb/libs/dibi/dibi.php(139): DibiConnection->__construct(Array, 0)
+#3 /home/csbazar/public_html/fb/libs/myDb.php(17): dibi::connect(Array)
+#4 /home/csbazar/public_html/fb/libs/secure.php(10): myDb->__construct()
+#5 /home/csbazar/public_html/fb/index.php(9): include('/home/csbazar/p...')
+#6 {main}
+  thrown in /home/csbazar/public_html/fb/libs/dibi/drivers/mysql.php on line 110
+[28-Oct-2013 11:23:11 UTC] PHP Fatal error:  Uncaught OAuthException: (#114) An id must be a valid ID string (e.g., "123")
+  thrown in /home/csbazar/public_html/fb/libs/base_facebook.php on line 988
+[28-Oct-2013 11:52:31 UTC] PHP Fatal error:  Uncaught OAuthException: (#114) An id must be a valid ID string (e.g., "123")
+  thrown in /home/csbazar/public_html/fb/libs/base_facebook.php on line 988
+[29-Oct-2013 07:43:49 UTC] PHP Fatal error:  Uncaught CurlException: 7: Failed to connect to 2a03:2880:2110:9f07:face:b00c:0:1: Network is unreachable
+  thrown in /home/csbazar/public_html/fb/libs/base_facebook.php on line 774
